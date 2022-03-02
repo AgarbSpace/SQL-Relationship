@@ -1,4 +1,4 @@
-import connection from "../db";
+import connection from "../db.js";
 import bcrypt from "bcrypt"
 
 export async function postSignUp (request, response){
